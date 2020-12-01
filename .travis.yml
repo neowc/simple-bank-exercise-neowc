@@ -9,7 +9,7 @@ before_script:
 script:
   - git clone https://github.com/neowc/simple-bank-exercise-neowc.git
   - rm ./test/simpleBank.test.js
-  - mv ./ce47850a8e2cba6ef366625b665c7fba/simpleBank.test.js ./test/simpleBank.test.js
+  - mv ./simple-bank-exercise-neowc.git/test/simpleBank.test.js ./test/simpleBank.test.js
   - ganache-cli &
   - sleep 5
   - truffle test
